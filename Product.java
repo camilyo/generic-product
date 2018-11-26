@@ -11,9 +11,9 @@ public class Product {
 	
 	//Constructors - initializing the state of the created objects
 	public Product(String code, String description, double price) {
-		this.code = code;
-		this.description = description;
-		this.price = price;
+		setCode(code);
+		setDescription(description);
+		setPrice(price);
 		count++;
 	}
 	
